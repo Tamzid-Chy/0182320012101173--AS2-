@@ -1,0 +1,12 @@
+import 'dart:io';
+
+void main() {
+  print("Enter a letter:");
+  String letter = stdin.readLineSync()!;
+
+  if ("aeiouAEIOU".contains(letter)) {
+    print("The letter is a Vowel");
+  } else {
+    print("The letter is a Consonant");
+  }
+}
